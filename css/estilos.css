@@ -1,6 +1,6 @@
 body
 {
-    background-color: #b3d4e4;
+    background-color: #1c1c1c;
     color: #1c1c1c;
     text-align: center;
     font-family: Arial;
@@ -12,21 +12,28 @@ body
 #header
 {
     background: #cf1c46;
-    box-shadow: 0px 0px 10px 0px rgba(190, 190, 190, 0.5);
+    box-shadow: 0px 2px 20px 0px rgba(190, 190, 190, 0.5);
     color: white;
     font-size: 50px;
     font-family: raleway;
     font-weight: bold;
     margin: 0cm;
-    padding: 0.5cm;
+    padding: 0.5cm 0 0.5cm 2cm;
     border-radius: 15px;
 }
 
+#header #logo
+{
+    width: 40px;
+    vertical-align: middle;
+}
+
+
 #header #tagline
 {
-    padding: 0 0 0 1cm;
+    padding: 0 0 0 1em;
     font-weight: normal;
-    font-size: 0.8cm
+    font-size: 0.8em;
 }
 
 #container
@@ -48,5 +55,6 @@ body
 
 #post
 {
-   margin: 30px;
+    background: white;
+    padding: 1em;
 }
