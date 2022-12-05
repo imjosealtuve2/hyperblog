@@ -48,5 +48,13 @@ body
 
 #post
 {
-   margin: 30px;
+   padding: 10px;
+}
+
+#footer
+{
+    background: #777;
+    color: white;
+    text-align: center;
+    padding: 8px;
 }
